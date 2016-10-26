@@ -362,7 +362,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r9plus/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/oppo/r9plus/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
     vendor/oppo/r9plus/proprietary/vendor/bin/qti:system/vendor/bin/qti \
-    vendor/oppo/r9plus/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/oppo/r9plus/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
     vendor/oppo/r9plus/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
     vendor/oppo/r9plus/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:system/vendor/lib64/egl/libGLESv1_CM_adreno.so \
@@ -666,9 +665,8 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/r9plus/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
 PRODUCT_COPY_FILES += \
-    vendor/oppo/r9plus/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
+    vendor/oppo/r9plus/proprietary/bin/rild:system/bin/rild \
     vendor/oppo/r9plus/proprietary/lib/libril.so:system/lib/libril.so \
-    vendor/oppo/r9plus/proprietary/lib64/libcameraservice.so:system/lib64/libcameraservice.so \
     vendor/oppo/r9plus/proprietary/lib64/libril.so:system/lib64/libril.so
 
 PRODUCT_PACKAGES += \
@@ -680,7 +678,6 @@ PRODUCT_PACKAGES += \
     shutdownlistener \
     TimeService \
     CNEService \
-    com.qualcomm.location \
     ims \
     qcrilmsgtunnel \
     QtiTetherService \
