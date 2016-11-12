@@ -382,11 +382,13 @@ added by liujinshui begin
   <CameraModuleConfig>
     <CameraId>2</CameraId>
     <SensorName>imx398</SensorName>
+    <ModuleInfoPath>/proc/rear_eeprom_info</ModuleInfoPath>
     <ActuatorName>ak7371_16037</ActuatorName>
     <EepromName>sony_imx398</EepromName>
     <OisName>bu24218</OisName>
     <FlashName>lm3643</FlashName>
     <ChromatixName>imx398_chromatix</ChromatixName>
+    <LiteonChromatixName>imx398_liteon_chromatix</LiteonChromatixName>
     <ModesSupported>1</ModesSupported>
     <Position>BACK</Position>
     <MountAngle>90</MountAngle>
@@ -398,7 +400,7 @@ added by liujinshui begin
     </CSIInfo>
     <LensInfo>
       <FocalLength>3.79</FocalLength>
-      <FNumber>2.0</FNumber>
+      <FNumber>1.7</FNumber>
       <TotalFocusDistance>1.97</TotalFocusDistance>
       <HorizontalViewAngle>65.4</HorizontalViewAngle>
       <VerticalViewAngle>51.2</VerticalViewAngle>
@@ -450,6 +452,28 @@ added by liujinshui begin
       <TotalFocusDistance>2.0</TotalFocusDistance>
       <HorizontalViewAngle>65.4</HorizontalViewAngle>
       <VerticalViewAngle>51.6</VerticalViewAngle>
+      <MinFocusDistance>0.1</MinFocusDistance>
+    </LensInfo>
+  </CameraModuleConfig>
+  <CameraModuleConfig>
+    <CameraId>1</CameraId>
+    <SensorName>s5k3p8sp</SensorName>
+    <ChromatixName>s5k3p8sp_chromatix</ChromatixName>
+    <ModesSupported>1</ModesSupported>
+    <Position>FRONT</Position>
+    <MountAngle>270</MountAngle>
+    <CSIInfo>
+      <CSIDCore>1</CSIDCore>
+      <LaneMask>0x1F</LaneMask>
+      <LaneAssign>0x4320</LaneAssign>
+      <ComboMode>0</ComboMode>
+    </CSIInfo>
+    <LensInfo>
+      <FocalLength>3.57</FocalLength>
+      <FNumber>2.0</FNumber>
+      <TotalFocusDistance>1.2</TotalFocusDistance>
+      <HorizontalViewAngle>63.2</HorizontalViewAngle>
+      <VerticalViewAngle>51.0</VerticalViewAngle>
       <MinFocusDistance>0.1</MinFocusDistance>
     </LensInfo>
   </CameraModuleConfig>
